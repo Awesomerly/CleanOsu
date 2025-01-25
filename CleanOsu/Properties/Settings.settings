@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="CleanOsu.Properties" GeneratedClassName="Settings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="lastRun" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">1753-01-01</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
