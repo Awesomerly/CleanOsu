@@ -189,7 +189,7 @@ namespace CleanOsu
 		static string GetMd5HashFromFile(string fileName)
 		{
 			FileStream fileStream = new FileStream(fileName, FileMode.Open);
-            MD5 md5 = MD5.Create();
+			MD5 md5 = MD5.Create();
 			byte[] array = md5.ComputeHash(fileStream);
 			fileStream.Close();
 			StringBuilder stringBuilder = new StringBuilder();
