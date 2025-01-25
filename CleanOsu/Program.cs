@@ -158,6 +158,8 @@ namespace CleanOsu
 			dic.Add("sliderslide", "sliderslide");
 			dic.Add("slidertick", "slidertick");
 			dic.Add("sliderwhistle", "sliderwhistle");
+			dic.Add("sliderendcircle", "sliderendcircle");
+			dic.Add("sliderstartcircle", "sliderstartcircle");
 			dic.Add("spinnerbonus", "spinnerbonus");
 			dic.Add("score-", "score-");
 			dic.Add("section-", "section-");
