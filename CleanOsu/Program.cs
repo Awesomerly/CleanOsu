@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -75,6 +76,10 @@ namespace CleanOsu
 			try
 			{
 				RegistryKey registryKey = Registry.ClassesRoot.OpenSubKey("Applications\\osu!.exe\\shell\\open\\command");
+				if (registryKey == null)
+				{
+					registryKey = Registry.ClassesRoot.OpenSubKey("osustable.File.osk\\DefaultIcon");
+				}
 				if (registryKey != null)
 				{
 					object value = registryKey.GetValue(null);
